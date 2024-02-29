@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
 import Providers from "./_components/Providers";
-import NavBar from "./_components/NavBar";
 
 const font = Nunito({ subsets: ["latin"] });
 
@@ -19,8 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Providers>
-        <body className={`absolute bg-[#191C21] w-full h-full ${font.className}`}>
-          <NavBar />
+        <body className={`bg-[#191414] w-[100vw] h-[100vh] m-0 ${font.className}`}>
           {children}
         </body>
       </Providers>
