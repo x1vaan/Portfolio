@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient-text {
+    background: linear-gradient(
+        to right,
+        #7A67FF,
+        #FAFAFA,
+        #7A67FF,
+        #FAFAFA,
+        #7A67FF,
+        #FAFAFA,
+        #7A67FF
+    );
+    background-clip: text;
+    background-size: 300% 300%;
+}
