@@ -3,7 +3,7 @@ import { Minus } from "lucide-react";
 export default function ExperienceItem(props: Experiences) {
   return (
     <div className="w-full flex flex-col gap-2 justify-center items-start text-start text-wrap">
-      <h2 className="text-xl sm:text-2xl font-semibold text-[#7A67FF] w-full flex gap-x-1 sm:gap-x-3 items-center">
+      <h2 className="text-xl sm:text-2xl font-semibold text-[#7A67FF] w-full flex gap-x-[0.10rem] sm:gap-x-3 items-center">
         {props.role}{" "}
         <span>
           <Minus className="text-[#D4D4D8]" />
