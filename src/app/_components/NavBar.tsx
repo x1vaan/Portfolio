@@ -12,9 +12,10 @@ export default function NavBar() {
 
         <div className="w-[330px] md:w-[450px] h-full flex flex-row items-center justify-center md:mr-10 relative lg:mr-20">
           <div className="flex items-center justify-between w-full h-auto px-[20px] py-[10px] rounded-full text-[#FAFAFA] font-light text-sm md:text-base">
-            <a href="#about-me" className="hover:text-[#7A67FF]">About Me</a>
-            <a href="#experience" className="hover:text-[#7A67FF]">Experience</a>
-            <a href="#projects" className="hover:text-[#7A67FF]">Projects</a>
+            <a href="#home" className="hover:text-[#7A67FF]">Inicio</a>
+            <a href="#experience" className="hover:text-[#7A67FF]">Experiencia</a>
+            <a href="#about-me" className="hover:text-[#7A67FF]">Sobre Mi</a>
+            <a href="#projects" className="hover:text-[#7A67FF]">Proyectos</a>
           </div>
         </div>
 
