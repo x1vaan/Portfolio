@@ -1,4 +1,6 @@
-export default function NextJsSVG() {
+import { SVGProps, FC } from 'react';
+
+const NextJsSVG: FC<SVGProps<SVGSVGElement>> = (props) => {
   return (
     <svg
       viewBox="0 0 256 256"
@@ -7,6 +9,7 @@ export default function NextJsSVG() {
       width="256"
       height="256"
       preserveAspectRatio="xMidYMid"
+      {...props}
     >
       <defs>
         <linearGradient id="c" x1="55.633%" x2="83.228%" y1="56.385%" y2="96.08%">
@@ -33,3 +36,5 @@ export default function NextJsSVG() {
     </svg>
   );
 }
+
+export default NextJsSVG

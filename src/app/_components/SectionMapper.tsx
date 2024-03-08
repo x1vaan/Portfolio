@@ -17,7 +17,7 @@ export default function SectionMapper<T extends JSX.IntrinsicAttributes>(props: 
           </span>
           {props.title}
         </h2>
-        <div className="w-full h-auto flex flex-col justify-center items-start gap-7">
+        <div className="w-full h-auto flex flex-col justify-center items-start gap-7 relative">
           {props.items.map((item: T) => (
             <props.ComponentToRender {...item} />
           ))}

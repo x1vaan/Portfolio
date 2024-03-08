@@ -10,10 +10,10 @@ export default function ExperienceItem(props: Experience) {
         </span>{" "}
         <span className="text-[#D4D4D8] text-xl sm:text-2xl">{props.company}</span>
       </h2>
-      <time dateTime="2023-06" className="text-slate-400 text-sm md:text-base">
+      <time dateTime="2023-06" className="text-[#D4D4D8] text-sm md:text-base">
         Jun 2023 - Actualmente
       </time>
-      <p className="text-[#D4D4D8] text-start text-wrap">{props.description}</p>
+      <p className="text-slate-400 text-start text-wrap">{props.description}</p>
     </article>
   );
 }
