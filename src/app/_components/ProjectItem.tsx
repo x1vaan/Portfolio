@@ -4,7 +4,7 @@ import { Chip } from "@nextui-org/react";
 
 export default function Projectitem(props: Project) {
   return (
-    <article className="w-[95%] md:max-w-[850px] h-auto flex flex-col md:flex-row justify-center items-start md:justify-start md:items-center relative mr-4 rounded-lg gap-7">
+    <article className="w-[95%] md:max-w-[850px] h-auto flex flex-col md:flex-row justify-center items-start md:justify-start md:items-center relative mr-4 my-4 rounded-lg gap-7">
       <div className="w-full h-full relative shadow-lg">
         <Image src={props.image} alt="Project" sizes="100%" style={{ width: "100%", height: "100%" }} className="rounded-[0.5rem]" />
       </div>

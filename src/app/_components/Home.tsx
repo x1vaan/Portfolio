@@ -10,8 +10,11 @@ export default function Home() {
       <section className="flex flex-col w-full max-w-[900px] items-start justify-center ml-4 md:ml-10 lg:m-0">
         <div className="flex flex-row w-full h-auto justify-start items-center gap-5 mb-4">
           <Image src={ProfileImage} alt="Profile Image" className="rounded-full size-16" />
-          <a href="https://www.linkedin.com/in/sergio-ivan-garcia/" className="flex items-center transition md:justify-center md:hover:scale-105">
-            <BadgeComponent title="Disponible para trabajar." />
+          <a
+            href="https://www.linkedin.com/in/sergio-ivan-garcia/"
+            className="flex items-center transition md:justify-center md:hover:scale-105"
+          >
+            <BadgeComponent title="Disponible para trabajar" />
           </a>
         </div>
         <h1 className="text-[#D4D4D8] text-4xl md:text-5xl font-bold text-wrap">Hola, Soy Ivan Garcia</h1>
@@ -20,14 +23,17 @@ export default function Home() {
           <span className="text-[#7A67FF]">1 año de experiencia</span> como desarrollador Full-Stack, actualmente estudiando tecnicatura en
           programación en la Universidad Tecnologica Nacional 🧉 🇦🇷.{" "}
         </p>
-        <Button
-          className="mt-7 bg-gradient-to-r from-[#C082FF] to-[#7A67FF] shadow-lg text-[#FAFAFA] font-bold md:text-base px-4 md:px-8 tracking-wide"
-          variant="flat"
-          radius="sm"
-          startContent={<Download className="size-[20px] md:size-[24px]" />}
-        >
-          Descargar CV
-        </Button>
+        <nav className="flex flex-wrap gap-4 mt-8">
+          <Button
+            className="bg-gradient-to-r from-[#C082FF] to-[#7A67FF] shadow-lg text-[#FAFAFA] font-bold md:text-base px-4 md:px-8 tracking-wide"
+            variant="flat"
+            radius="sm"
+            startContent={<Download className="size-[20px] md:size-[24px]" />}
+          >
+            Descargar CV
+          </Button>
+          
+        </nav>
       </section>
     </div>
   );

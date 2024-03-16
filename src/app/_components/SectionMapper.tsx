@@ -9,7 +9,7 @@ export default function SectionMapper<T extends JSX.IntrinsicAttributes>(props: 
   id: string;
 }) {
   return (
-    <div className="relative w-full h-auto flex items-center justify-center" id={props.id}>
+    <div className="relative w-full h-auto flex items-center justify-center scroll-m-20" id={props.id}>
       <section className="w-full max-w-[900px] h-auto flex flex-col relative items-start justify-center ml-4 md:ml-10 lg:m-0 ">
         <h2 className="text-3xl font-semibold text-[#D4D4D8] w-full flex gap-x-3 items-center mb-6">
           <span>

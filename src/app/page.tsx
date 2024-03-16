@@ -1,5 +1,4 @@
 import HeroSection from "./_components/Home";
-import NavBar from "./_components/NavBar";
 import SectionMapper from "./_components/SectionMapper";
 import experiences, { Experience } from "@/constants/experience";
 import { Briefcase } from "lucide-react";
@@ -13,7 +12,6 @@ export default function Home() {
     <main className="h-full w-full flex flex-col items-center overflow-y-scroll">
       <HeroSection />
       <div className="space-y-24">
-        {/* <Experience /> */}
         <SectionMapper<Experience>
           id="experience"
           items={experiences}
