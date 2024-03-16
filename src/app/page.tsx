@@ -11,7 +11,8 @@ import { TerminalSquare } from "lucide-react";
 export default function Home() {
   return (
     <main className="h-full w-full flex flex-col items-center overflow-y-scroll">
-      <NavBar />
+      <div className="absolute inset-0 -z-10 h-full w-full items-center [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
+      {/* <NavBar /> */}
       <HeroSection />
       {/* <Experience /> */}
       <SectionMapper<Experience>
@@ -21,13 +22,7 @@ export default function Home() {
         icon={Briefcase}
         title="Experiencia Laboral"
       />
-      <SectionMapper<Project>
-          id="projects"
-          items={projects}
-          ComponentToRender={Projectitem}
-          icon={TerminalSquare}
-          title="Proyectos"
-        />
+      <SectionMapper<Project> id="projects" items={projects} ComponentToRender={Projectitem} icon={TerminalSquare} title="Proyectos" />
     </main>
   );
 }
