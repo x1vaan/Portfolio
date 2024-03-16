@@ -3,14 +3,14 @@ import Logo from "../../../public/tg.svg";
 
 export default function NavBar() {
   return (
-    <nav className="w-full h-[65px] top-0 bg-inherit backdrop-blur-md z-50 px-1 md:px-10 relative">
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
-        <a href="#about-me" className="h-auto w-auto flex flex-row items-center">
+    <nav className="w-full h-[65px] fixed top-0 bg-transparent backdrop-blur-md z-50 px-1 md:px-10">
+      <div className="w-full h-full flex flex-row items-center justify-center m-auto px-[10px]">
+        {/* <a href="#about-me" className="h-auto w-auto flex flex-row items-center">
           <Image src={Logo} alt="Ivan Logo" width={70} height={70} className="hover:animate-slowspin cursor-pointer hidden md:block" />
           <span className="text-[#FAFAFA] font-semibold md:text-lg hidden md:block">Ivan Garcia</span>
-        </a>
+        </a> */}
 
-        <div className="w-[330px] md:w-[450px] h-full flex flex-row items-center justify-center md:mr-10 relative lg:mr-20">
+        <div className="w-[330px] md:w-[450px] h-full flex flex-row items-center justify-center relative py-4">
           <div className="flex items-center justify-between w-full h-auto px-[20px] py-[10px] rounded-full text-[#FAFAFA] font-light text-sm md:text-base">
             <a href="#home" className="hover:text-[#7A67FF]">Inicio</a>
             <a href="#experience" className="hover:text-[#7A67FF]">Experiencia</a>

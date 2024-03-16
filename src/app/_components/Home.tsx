@@ -3,7 +3,7 @@ import { Download } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="w-full h-[500px] flex justify-center items-center relative py-10 sm:py-0" id="home">
+    <div className="w-full h-[500px] flex justify-center items-center relative py-20 sm:py-36" id="home">
       <section className="flex flex-col w-full max-w-[900px] items-start justify-center ml-4 md:ml-10 lg:m-0">
         <h1 className="text-[#D4D4D8] text-4xl md:text-5xl font-bold text-wrap">Hola, Soy Ivan Garcia</h1>
         <h2 className="mt-3 mb-6 gradient-text text-transparent animate-gradient text-xl">Desarrollador Full-Stack</h2>

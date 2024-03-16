@@ -11,7 +11,6 @@ import { TerminalSquare } from "lucide-react";
 export default function Home() {
   return (
     <main className="h-full w-full flex flex-col items-center overflow-y-scroll">
-      <NavBar />
       <HeroSection />
       {/* <Experience /> */}
       <SectionMapper<Experience>
