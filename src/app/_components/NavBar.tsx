@@ -6,7 +6,7 @@ export default function NavBar() {
     <nav className="w-full h-[65px] top-0 bg-inherit backdrop-blur-md z-50 px-1 md:px-10 relative">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a href="#about-me" className="h-auto w-auto flex flex-row items-center">
-          <Image src={Logo} alt="Ivan Logo" width={70} height={70} className="hover:animate-slowspin cursor-pointer" />
+          <Image src={Logo} alt="Ivan Logo" width={70} height={70} className="hover:animate-slowspin cursor-pointer hidden md:block" />
           <span className="text-[#FAFAFA] font-semibold md:text-lg hidden md:block">Ivan Garcia</span>
         </a>
 
@@ -19,7 +19,7 @@ export default function NavBar() {
           </div>
         </div>
 
-        <div className="h-full flex justify-center items-center">
+        {/* <div className="h-full flex justify-center items-center">
           <ul className="flex flex-row gap-3 md:gap-5 items-center" aria-label="Social media">
             <li className="text-xs shrink-0">
               <a className="block text-slate-500/40 hover:text-slate-400 transition ease-in-out delay-50" href="https://github.com/x1vaan" target="_blank" title="GitHub">
@@ -60,7 +60,7 @@ export default function NavBar() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
