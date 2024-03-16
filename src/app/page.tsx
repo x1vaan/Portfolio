@@ -14,7 +14,7 @@ export default function Home() {
       <NavBar />
       <HeroSection />
       {/* <Experience /> */}
-      {/* <SectionMapper<Experience>
+      <SectionMapper<Experience>
         id="experience"
         items={experiences}
         ComponentToRender={ExperienceItem}
@@ -27,7 +27,7 @@ export default function Home() {
           ComponentToRender={Projectitem}
           icon={TerminalSquare}
           title="Proyectos"
-        /> */}
+        />
     </main>
   );
 }
