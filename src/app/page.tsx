@@ -10,11 +10,11 @@ import { TerminalSquare } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="h-full w-full flex flex-col items-center overflow-y-scroll">
+    <main className="h-full w-full flex flex-col items-center">
       <NavBar />
       <HeroSection />
       {/* <Experience /> */}
-      <SectionMapper<Experience>
+      {/* <SectionMapper<Experience>
         id="experience"
         items={experiences}
         ComponentToRender={ExperienceItem}
@@ -27,7 +27,7 @@ export default function Home() {
           ComponentToRender={Projectitem}
           icon={TerminalSquare}
           title="Proyectos"
-        />
+        /> */}
     </main>
   );
 }

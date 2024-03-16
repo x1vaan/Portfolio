@@ -21,10 +21,6 @@ html {
   scroll-behavior: smooth;
 }
 
-cover {
-  background-size: cover;
-}
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
