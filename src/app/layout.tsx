@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Providers>
-        <body className={`w-full h-[100vh] absolute m-0 ${font.className}`}>
+        <body className={`w-full h-full absolute m-0 ${font.className}`}>
           <div className="absolute inset-0 -z-10 h-full w-full items-center [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
           {children}
         </body>

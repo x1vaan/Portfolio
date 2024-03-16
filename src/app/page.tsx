@@ -10,7 +10,7 @@ import { TerminalSquare } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="relative h-full w-full flex flex-col items-center overflow-y-scroll">
+    <main className="h-full w-full flex flex-col items-center overflow-y-scroll">
       <NavBar />
       <HeroSection />
       {/* <Experience /> */}
