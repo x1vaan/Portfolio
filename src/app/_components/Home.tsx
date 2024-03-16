@@ -3,6 +3,7 @@ import { Download } from "lucide-react";
 import BadgeComponent from "./BadgeComponent";
 import Image from "next/image";
 import ProfileImage from "../../../public/Ivan.jpg";
+import Webs from "./Webs";
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
           <span className="text-[#7A67FF]">1 año de experiencia</span> como desarrollador Full-Stack, actualmente estudiando tecnicatura en
           programación en la Universidad Tecnologica Nacional 🧉 🇦🇷.{" "}
         </p>
-        <nav className="flex flex-wrap gap-4 mt-8">
+        <nav className="flex flex-wrap gap-6 mt-8">
           <Button
             className="bg-gradient-to-r from-[#C082FF] to-[#7A67FF] shadow-lg text-[#FAFAFA] font-bold md:text-base px-4 md:px-8 tracking-wide"
             variant="flat"
@@ -32,7 +33,7 @@ export default function Home() {
           >
             Descargar CV
           </Button>
-          
+          <Webs />
         </nav>
       </section>
     </div>
