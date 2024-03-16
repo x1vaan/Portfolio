@@ -17,12 +17,9 @@
     background-size: 300% 300%;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-size: cover;
+  scroll-behavior: smooth;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -12,21 +12,17 @@ export default function Home() {
   return (
     <main className="h-full w-full flex flex-col items-center overflow-y-scroll">
       <HeroSection />
-      {/* <Experience /> */}
-      <SectionMapper<Experience>
-        id="experience"
-        items={experiences}
-        ComponentToRender={ExperienceItem}
-        icon={Briefcase}
-        title="Experiencia Laboral"
-      />
-      <SectionMapper<Project>
-          id="projects"
-          items={projects}
-          ComponentToRender={Projectitem}
-          icon={TerminalSquare}
-          title="Proyectos"
+      <div className="space-y-24">
+        {/* <Experience /> */}
+        <SectionMapper<Experience>
+          id="experience"
+          items={experiences}
+          ComponentToRender={ExperienceItem}
+          icon={Briefcase}
+          title="Experiencia Laboral"
         />
+        <SectionMapper<Project> id="projects" items={projects} ComponentToRender={Projectitem} icon={TerminalSquare} title="Proyectos" />
+      </div>
     </main>
   );
 }
