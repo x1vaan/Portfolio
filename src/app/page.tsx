@@ -21,13 +21,13 @@ export default function Home() {
         icon={Briefcase}
         title="Experiencia Laboral"
       />
-      {/* <SectionMapper<Project>
+      <SectionMapper<Project>
           id="projects"
           items={projects}
           ComponentToRender={Projectitem}
           icon={TerminalSquare}
           title="Proyectos"
-        /> */}
+        />
     </main>
   );
 }
