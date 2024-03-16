@@ -18,7 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Providers>
-        <body className={`w-full h-full absolute m-0 ${font.className} overflow-y-scroll bg-black [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]`}>
+        <body className={`w-full h-full absolute m-0 ${font.className} overflow-y-scroll bg-black z-10`}>
+          <div className="absolute inset-0 -z-10 h-full items-center [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
           {children}
         </body>
       </Providers>
