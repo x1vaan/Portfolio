@@ -25,14 +25,16 @@ export default function Home() {
           programación en la Universidad Tecnologica Nacional 🧉 🇦🇷.{" "}
         </p>
         <nav className="flex flex-wrap gap-6 mt-8">
-          <Button
-            className="bg-gradient-to-r from-[#C082FF] to-[#7A67FF] shadow-lg text-[#FAFAFA] font-bold md:text-base px-4 md:px-8 tracking-wide"
-            variant="flat"
-            radius="sm"
-            startContent={<Download className="size-[20px] md:size-[24px]" />}
-          >
-            Descargar CV
-          </Button>
+          <a href="CV Sergio Ivan Garcia - Full Stack.pdf" className="h-auto w-auto" download="CV Sergio Ivan Garcia - Full Stack.pdf">
+            <Button
+              className="bg-gradient-to-r from-[#C082FF] to-[#7A67FF] shadow-lg text-[#FAFAFA] font-bold md:text-base px-4 md:px-8 tracking-wide"
+              variant="flat"
+              radius="sm"
+              startContent={<Download className="size-[20px] md:size-[24px]" />}
+            >
+              Descargar CV
+            </Button>
+          </a>
           <Webs />
         </nav>
       </section>
