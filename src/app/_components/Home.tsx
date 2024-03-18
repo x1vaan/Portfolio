@@ -20,9 +20,9 @@ export default function Home() {
         </div>
         <h1 className="text-[#D4D4D8] text-4xl md:text-5xl font-bold text-wrap">Hola, Soy Ivan Garcia</h1>
         <h2 className="mt-3 mb-6 gradient-text text-transparent animate-gradient text-xl">Desarrollador Full-Stack</h2>
-        <p className="text-[#D4D4D8] w-[90%] md:w-[70%] text-wrap text-md md:text-lg">
-          <span className="text-[#7A67FF]">1 año de experiencia</span> como desarrollador Full-Stack, actualmente estudiando tecnicatura en
-          programación en la Universidad Tecnologica Nacional 🧉 🇦🇷.{" "}
+        <p className="text-[#D4D4D8] w-[90%] md:w-[75%] text-md md:text-lg text-pretty">
+          1 Año de experiencia. <span className="text-[#7A67FF]">Desarrollador Full-Stack </span>de Argentina, Buenos Aires 🇦🇷. Actualmente
+          estudiando Tecnicatura en Programación en la Universidad Tecnologica Nacional.{" "}
         </p>
         <nav className="flex flex-wrap gap-6 mt-8">
           <a href="CV Sergio Ivan Garcia - Full Stack.pdf" className="h-auto w-auto" download="CV Sergio Ivan Garcia - Full Stack.pdf">

@@ -1,4 +1,5 @@
 import { UserRoundSearch } from "lucide-react";
+import Image from "next/image";
 
 export default function AboutMe() {
   return (
@@ -10,12 +11,13 @@ export default function AboutMe() {
           </span>
           Sobre mí
         </h2>
-        <div className="text-pretty order-2 md:order-1 pr-2 text-slate-400">
-          <p>
-            Hi! My name is Ivan, I am a 20 years old Junior Full Stack developer from Argentina. I'm a Positive, empathic and curious
-            person, always trying to get better. I like outdoor activites, photography and swimming. I started programming in May 2022 when
-            i entered in a Full Stack Developer Bootcamp and gain experience working on some projects.
-          </p>
+        <div className="flex flex-col items-center justify-center text-slate-400 md:flex-row">
+          <div className="text-pretty order-2 md:order-1 pr-2 text-slate-400">
+            <p>
+              Me llamo Sergio Ivan, tengo 22 años y soy de Argentina. Comence a estudiar programacion en 2022 como autodidacta, y ahora
+              estoy cursando Tecnicatura en Programacion en la Universidad Tecnologica Nacional.
+            </p>
+          </div>
         </div>
       </article>
     </section>

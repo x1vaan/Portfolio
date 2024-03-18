@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="h-full w-full flex flex-col items-center overflow-y-scroll">
       <HeroSection />
-      <div className="space-y-24">
+      <div className="space-y-24 mb-5">
         <SectionMapper<Experience>
           id="experience"
           items={experiences}
