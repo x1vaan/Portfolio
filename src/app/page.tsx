@@ -6,6 +6,7 @@ import ExperienceItem from "./_components/ExperienceItem";
 import projects, { Project } from "@/constants/project";
 import Projectitem from "./_components/ProjectItem";
 import { TerminalSquare } from "lucide-react";
+import AboutMe from "./_components/AboutMe";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           title="Experiencia Laboral"
         />
         <SectionMapper<Project> id="projects" items={projects} ComponentToRender={Projectitem} icon={TerminalSquare} title="Proyectos" />
+        <AboutMe />
       </div>
     </main>
   );

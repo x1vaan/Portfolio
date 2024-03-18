@@ -17,6 +17,21 @@
     background-size: 300% 300%;
 }
 
+.gradient-text-projects {
+  background: linear-gradient(
+        to right,
+        #52525b,
+        #FAFAFA,
+        #52525b,
+        #FAFAFA,
+        #52525b,
+        #FAFAFA,
+        #52525b
+    );
+    background-clip: text;
+    background-size: 300% 300%;
+}
+
 body {
   background-size: cover;
   scroll-behavior: smooth;

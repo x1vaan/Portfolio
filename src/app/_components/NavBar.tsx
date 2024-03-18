@@ -10,11 +10,11 @@ export default function NavBar() {
             <a href="#experience" className="hover:text-[#7A67FF]">
               Experiencia
             </a>
-            <a href="#about-me" className="hover:text-[#7A67FF]">
-              Sobre Mi
-            </a>
             <a href="#projects" className="hover:text-[#7A67FF]">
               Proyectos
+            </a>
+            <a href="#about-me" className="hover:text-[#7A67FF]">
+              Sobre Mi
             </a>
           </div>
         </div>
